@@ -26,12 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+  - The games purpose is to all the user to guess the secret number in a fixed amount of times, optional hints are given that tell you if the users guess is higher or lower than the secret number. You win if you guess the right number before all 6 attemps run out or you lose if you don't guess the right number before your attemps run out.
 - [ ] Detail which bugs you found.
+   - The bugs found in this game consisted of incorrect higher/lower comparasion, not reseting a new game correctly and displaying the wrong range of numbers for certain difficulties. 
 - [ ] Explain what fixes you applied.
+   - In order to fix these bugs, for the high/low comparasion, I made sure if the users number that was being guessed was higher than the secret number, than it would advise them to guess lower and vice versa. For the new game reset, I made a reset function that made sure that the secret number was in the difficulty range and at all the attemps were reset to 0. Lastly, I made sure that the ranges of the difficulies were being accurated displayed and had the accurate range. Copilot helped me identify where in the code these areas might be and gave me suggestions to fix it.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- ![alt text](<Screenshot 2026-03-16 at 11.05.08 PM.png>)
 
 ## 🚀 Stretch Features
 
